@@ -6,7 +6,7 @@ A simple contact management application built with React (frontend), Node.js (ba
 ## Setup Instructions
 
 ### Prerequisites
-- Node.js (LTS version)
+- Node.js 
 - MongoDB (local or MongoDB Atlas for cloud)
 
 ### 1. Clone the Repository
@@ -53,7 +53,6 @@ cd contact-management-app
    ```
 
 ### 4. Access the App
-- Backend: `http://localhost:5000/api/contacts`
 - Frontend: `http://localhost:3000`
 
 ## Database Documentation
@@ -94,5 +93,3 @@ MongoDB is used because it provides flexibility and scalability with its documen
 └── README.md
 ```
 
-## License
-MIT License.
