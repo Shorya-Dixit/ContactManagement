@@ -1,0 +1,63 @@
+/* App.css */
+
+/* Main Heading Styling */
+.main-heading {
+  text-align: center;  /* Center align the heading */
+  margin-top: 20px;     /* Add margin at the top */
+  font-size: 24px;      /* Set the font size */
+  font-weight: bolder;  /* Make the font bold */
+  color: black;         /* Set a color for the heading */
+}
+
+/* Table Column Headers Styling */
+.MuiTableCell-head {
+  background-color: #424242;  /* Dark Background for headers */
+  color: white; /* White text color */
+  font-weight: bold; /* Make headers bold */
+  text-align: center; /* Center align the headers */
+}
+
+/* Border for each table cell */
+.MuiTableCell-root {
+  border: 1px solid #e0e0e0;  /* Light border for each cell */
+  text-align: center; /* Center align the text */
+  padding: 12px; /* Add padding inside each cell */
+}
+
+/* Add Contact button positioning */
+.add-contact-button {
+  position: absolute; /* Fix to top-left corner */
+  top: 20px; /* Margin from the top */
+  left: 20px; /* Margin from the left */
+  z-index: 10; /* Ensure it's above other content */
+}
+
+/* Overlay when form is visible */
+.background-overlay.show {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark semi-transparent background */
+  z-index: 9998;
+  backdrop-filter: blur(5px); /* Blur effect for background */
+}
+
+/* Table Container Styling */
+.table-container {
+  margin-top: 30px; /* Add margin to the table */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Add shadow for classiness */
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden;  /* Prevent content overflow */
+}
+
+/* Padding for the table content */
+.MuiTable-root {
+  padding: 16px;
+}
+
+/* Add margin to the table below the button */
+.MuiTable-root {
+  margin-top: 30px; /* Ensure space between the button and the table */
+}
